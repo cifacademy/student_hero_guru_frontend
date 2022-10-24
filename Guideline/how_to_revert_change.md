@@ -8,7 +8,7 @@ Sometimes you might be wanna reset your local change for some cases. Here I alre
   git reflog
   ```
 
-    For example `git reflog` will result a list of hash id changes in your terminal :
+   For example `git reflog` will result a list of hash id changes in your terminal :
 
 ```ruby
     db5dca9 (HEAD -> MCM_firstRunDoc_guide, origin/MCM_firstRunDoc_guide) HEAD@{0}: commit (amend): Adding how to handle conflict after rebasing Guideline
@@ -24,7 +24,7 @@ Sometimes you might be wanna reset your local change for some cases. Here I alre
     4932459 (origin/main, origin/HEAD) HEAD@{10}: pull --rebase origin main (start): checkout 493245994a8adee520c7055df2da205e9c693086
     6e8c963 HEAD@{11}: commit (amend): Adding Commit After Commit Guideline
 ```
-    Now my current HEAD was in `db5dca9`. I want to revert to `6e8c963` or `HEAD@{11}`
+   Now my current HEAD was in `db5dca9`. I want to revert to `6e8c963` or `HEAD@{11}`
 
 2. For hard reset you could use the command bellow : **REMEMBER YOU MUST BE CAREFUL WITH HARD RESET BECAUSE YOUR CHANGE WILL ERASE PERMANENTLY**
     
