@@ -9,3 +9,4 @@ This guidline are design for tech team for their first run project. Follow this 
 * [How to make a pull request](/Guideline/how_to_make_a_pull_request.md#how-to-make-a-pull-request)
 * [How to review a pull request from member](/Guideline/how_to_review_a_pull_request_from_member.md#how-to-review-a-pull-request-from-member)
 * [How to revert change](/Guideline/how_to_revert_change.md#how-to-revert-change)
+* [How to delete working branch](Guideline/how_to_delete_working_branch.md)
