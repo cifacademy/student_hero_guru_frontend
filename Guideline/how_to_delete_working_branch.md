@@ -28,7 +28,7 @@ To issue the command to delete a Git branch, follow these steps:
    git branch -d <branchName>
    ```
     
-    > Alternatively, you can also use the `-D` flag which is a shortcut for `--delete` --force. In other words with the `-D` flag, the specified branch will be deleted regardless of its merged status.
+    > Alternatively, you can also use the `-D` flag which is a shortcut for `--delete --force`. In other words with the `-D` flag, the specified branch will be deleted regardless of its merged status.
 
     ### Example 3: (using `-D`)
 
