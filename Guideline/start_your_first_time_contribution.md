@@ -90,7 +90,7 @@
 6. Checkout to your working branch
 
    ```bash   
-   git branch <your_branch_name>
+   git checkout <your_branch_name>
    ```
 
 7. Start make contribution (create something, update something, etc)
