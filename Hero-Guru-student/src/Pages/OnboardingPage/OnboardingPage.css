@@ -1,0 +1,120 @@
+.bg_onboarding {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container_content_onboarding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.container_group1_onboarding {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    /* background-color: bisque; */
+}
+
+.container_img_onboarding {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.text1_onboarding {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #121A40;
+}
+
+.text2_onboarding {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.container_group2_onboarding {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.btn_onboarding {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    background-color: unset;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.btn_onboarding:hover{
+    background-color: rgb(169, 169, 169);
+}
+
+.container_group3_onboarding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button_create_account_onboarding {
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 32px;
+    background-color: #121A40;
+    margin-bottom: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.button_create_account_onboarding:hover {
+    background-color: #FFFFFF;
+    color: #121A40;
+    border: 1px solid #121A40;
+}
+
+.other_method_onboarding {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.text3_onboarding {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}

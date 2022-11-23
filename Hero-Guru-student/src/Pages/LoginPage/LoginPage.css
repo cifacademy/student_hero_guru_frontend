@@ -1,0 +1,156 @@
+.bg_login {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container_content_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.container_group1_login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    /* background-color: bisque; */
+}
+
+.container_img_login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.text1_login {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #121A40;
+}
+
+.text2_login {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.container_group2_login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.input_field_login {
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    width: 300px;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+}
+
+.remember_me_login {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #121A40; */
+}
+
+.forgot_password_login {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #122252;
+}
+
+.checkbox_login {
+    width: 15px;
+    height: 15px;
+}
+
+.container_group3_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button_create_account_login {
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 32px;
+    background-color: #121A40;
+    margin-bottom: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.button_create_account_login:hover {
+    background-color: #FFFFFF;
+    color: #121A40;
+    border: 1px solid #121A40;
+}
+
+.other_method_login {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.other_method_login span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.google_button_login {
+    display: flex !important;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px !important;
+    height: 35px !important;
+    border: 1px solid #8D96A9 !important;
+    border-radius: 32px !important;
+    background-color: #FFFFFF !important;
+    color: #000 !important;
+}
+
+.google_button_login>div {
+    background-color: unset !important;
+}
+
+.text3_login {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
