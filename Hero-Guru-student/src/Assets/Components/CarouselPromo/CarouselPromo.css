@@ -1,0 +1,39 @@
+.containercarousel_landingPage {
+    margin: 1rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    /* width: 1000px !important; */
+
+}
+
+.swipercontent_landingPage {
+    display: flex;
+    background-color: #F2D88A;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 20px;
+}
+
+
+
+.swiper-button-prev {
+    /* margin-right: -100px !important; */
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #FFFFFFFF;
+    border-radius: 50%;
+    left: 120px !important;
+    top: 45% !important;
+    color: black !important;
+}
+
+.swiper-button-next {
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #FFFFFFFF;
+    border-radius: 50%;
+    right: 120px !important;
+    top: 45% !important;
+    color: black !important;
+}
+
