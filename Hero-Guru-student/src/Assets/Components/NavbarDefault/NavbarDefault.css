@@ -1,0 +1,75 @@
+.navbardefault {
+    background-color: #2E3866 !important;
+    position: fixed !important;
+    width: 100%;
+    z-index: 999999;
+}
+
+.container_navbarDefault {
+    justify-content: space-between !important;
+}
+
+.componentgroup1_navbardefault {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navlink_navbarDefault {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 19px;
+    color: #FFFFFF !important;
+}
+
+.navlink_navbarDefault:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.componentgroup2_navbardefault {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn_navbarDefault1 {
+    width: 116px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+
+.btn_navbarDefault2 {
+    width: 116px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E3866;
+    background-color: white;
+}
+
+.btn_navbarDefault1:hover {
+    color: #2E3866;
+    background-color: #ffffff;
+}
+
+.btn_navbarDefault2:hover {
+    color: #ffffff;
+    background-color:  #2E3866;
+}
