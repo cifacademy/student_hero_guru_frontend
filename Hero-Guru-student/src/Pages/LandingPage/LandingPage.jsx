@@ -3,23 +3,18 @@ import { Card, Col, Container, Row } from 'react-bootstrap'
 import { NavbarDefault } from '../../Assets/Components/NavbarDefault/NavbarDefault'
 import './LandingPage.css'
 import image1 from '../../Assets/Img/Frame 13.png'
-import image2 from '../../Assets/Img/Slider Menu - 1 1.png'
 import image3 from '../../Assets/Img/interface-user-avatar-happy.png'
 import image4 from '../../Assets/Img/interface-user-avatar-4.png'
 import image5 from '../../Assets/Img/interface-user-circle-group.png'
 import image6 from '../../Assets/Img/bx-check-square.png'
 import image7 from '../../Assets/Img/Frame 1962 1.png'
-
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Pagination, Navigation, Autoplay } from "swiper";
-import 'swiper/css';
+import { CarouselPromo } from '../../Assets/Components/CarouselPromo/CarouselPromo'
 
 
 
-export default class LandingPage extends Component {
+
+
+class LandingPage extends Component {
     render() {
         return (
             <Container fluid className='p-0'>
@@ -83,59 +78,8 @@ export default class LandingPage extends Component {
                     </Col>
                 </Row>
 
-                <Container className='containercarousel_landingPage'>
-                    <Swiper
-                        navigation={true}
-                        loop={true}
-                        modules={[Pagination, Navigation]}
-                        className="mySwiper"
-                        slidesPerView={1}
-                    >
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
 
-                    </Swiper>
-                </Container>
 
-                <Container className='containercarousel_landingPage'>
-                    <Swiper
-                        navigation={true}
-                        loop={true}
-                        modules={[Pagination, Navigation]}
-                        className="mySwiper"
-                        slidesPerView={1}
-                    >
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-                        <SwiperSlide className='swipercontent_landingPage'>
-                            <img alt='' src={image2} />
-                        </SwiperSlide>
-
-                    </Swiper>
-                </Container>
 
                 <Container fluid className='containercard_whyus_landingpage'>
                     <div className='text5_landingPage'>
@@ -229,6 +173,8 @@ export default class LandingPage extends Component {
                     </Container>
                 </Container>
 
+                <CarouselPromo />
+
                 <Container fluid>
                     <Row>
                         <Col md={6} className='col_section4_landingpage'>
@@ -292,3 +238,5 @@ export default class LandingPage extends Component {
         )
     }
 }
+
+export default LandingPage
