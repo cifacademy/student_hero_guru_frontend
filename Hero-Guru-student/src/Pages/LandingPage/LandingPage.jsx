@@ -20,7 +20,7 @@ import 'swiper/css';
 export const LandingPage = () => {
     return (
         <Container fluid className='p-0'>
-            <NavbarDefault />
+            <NavbarDefault />            
 
             <Row className='m-0 container_component_landingPage'>
                 <Col md={6} className=''>
