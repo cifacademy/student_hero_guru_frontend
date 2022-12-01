@@ -4,6 +4,7 @@ import LandingPage from '../Pages/LandingPage/LandingPage'
 import { LoginPage } from '../Pages/LoginPage/LoginPage'
 import { OnboardingPage } from '../Pages/OnboardingPage/OnboardingPage'
 import { RegisterPage } from '../Pages/RegisterPage/RegisterPage'
+import { SetNewPassword, FormEmail, VerifyEmail } from '../Pages/ForgotPassword/ForgotPassword'
 
 export const RouterDefault = () => {
   return (
@@ -14,6 +15,9 @@ export const RouterDefault = () => {
           <Route path='signUp' element={<RegisterPage />} />
           <Route path='signIn' element={<LoginPage />} />
           <Route path='onboarding' element={<OnboardingPage />} />
+          <Route path='setNewPassword' element={<SetNewPassword />} />
+          <Route path='FormEmail' element={<FormEmail />} />
+          <Route path='VerifyEmail' element={<VerifyEmail />} />
         </Routes>
       </BrowserRouter>
     </div>
