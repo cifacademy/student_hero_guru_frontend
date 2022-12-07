@@ -1,20 +1,21 @@
-import { Component } from 'react'
-import { Card, Col, Container, Row } from 'react-bootstrap'
-import { NavbarDefault } from '../../Assets/Components/NavbarDefault/NavbarDefault'
-import './LandingPage.css'
-import image1 from '../../Assets/Img/Frame 13.png'
-import image3 from '../../Assets/Img/interface-user-avatar-happy.png'
-import image4 from '../../Assets/Img/interface-user-avatar-4.png'
-import image5 from '../../Assets/Img/interface-user-circle-group.png'
-import image6 from '../../Assets/Img/bx-check-square.png'
-import image7 from '../../Assets/Img/Frame 1962 1.png'
-import { CarouselPromo } from '../../Assets/Components/CarouselPromo/CarouselPromo'
-
-
-
-
+import { Component } from 'react';
+import { Card, Col, Container, Row } from 'react-bootstrap';
+import { NavbarDefault } from '../../Assets/Components/NavbarDefault/NavbarDefault';
+import {CarouselTesti} from '../../Assets/Components/Carousel/CarouselTesti/CarouselTesti';
+import './LandingPage.css';
+import 'bootstrap/dist/js/bootstrap.js';
+import image1 from '../../Assets/Img/Frame 13.png';
+import image3 from '../../Assets/Img/interface-user-avatar-happy.png';
+import image4 from '../../Assets/Img/interface-user-avatar-4.png';
+import image5 from '../../Assets/Img/interface-user-circle-group.png';
+import image6 from '../../Assets/Img/bx-check-square.png';
+import image7 from '../../Assets/Img/Frame 1962 1.png';
+import image8 from '../../Assets/Img/bxs_image.png';
+import {CarouselPromo}  from '../../Assets/Components/Carousel/CarouselPromo/CarouselPromo';
 
 class LandingPage extends Component {
+
+
     render() {
         return (
             <Container fluid className='p-0'>
@@ -30,7 +31,7 @@ class LandingPage extends Component {
                                     tentunya membantu proses belajar mengajar menjadi lebih mudah.</h6>
 
                                 <div className='searchbtn_landingPage'>
-                                    <i class="bi bi-search"></i>
+                                    <i className="bi bi-search"></i>
                                     <input type={'text'} className="ms-1 inputsearch_landingPage" placeholder='Cari Guru Sesuai Mata Pelajaran...' />
                                 </div>
 
@@ -216,27 +217,17 @@ class LandingPage extends Component {
 
                         <Col md={6}>
                             <div className='containerimg_section4_landingpage'>
-
                                 <img alt='' src={image7} className='image7_section4_landingpage' />
                             </div>
-
                         </Col>
                     </Row>
                 </Container>
 
-                <Container fluid className='container_section5_ladingpage'>
-                    <Container className='containercontent_section5_landingpage'>
-                        <h5 className='title_section5_landingpage'>
-                            Kata Mereka Setelah Menggunakan Hero Guru
-                        </h5>
-
-
-                    </Container>
-                </Container>
+                <CarouselTesti/>
 
             </Container>
         )
     }
 }
 
-export default LandingPage
+export default LandingPage;
