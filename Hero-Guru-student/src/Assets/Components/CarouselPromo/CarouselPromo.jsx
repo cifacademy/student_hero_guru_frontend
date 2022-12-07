@@ -6,7 +6,7 @@ import './CarouselPromo.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation, Autoplay } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import 'swiper/css';
 
 export const CarouselPromo = () => {
